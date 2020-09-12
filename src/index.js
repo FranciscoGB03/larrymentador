@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+//|------Librerias------|//
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+//|------Css-------|//
+import '../src/styles/animate.css';
+import '../src/styles/mdb.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
