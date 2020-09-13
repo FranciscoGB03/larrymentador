@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa';
+import { FaPaw } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark deep-purple lighten-1 py-0 text-small">
             <NavLink to="/" className="nav-link navbar-brand" href="#"><span>
-                <FaHome />
+                <FaPaw />
             </span></NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -19,22 +19,16 @@ const Navbar = () => {
                     <li className="nav-item dropdown ">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            prueba
-                                <span className="py-1"></span>
+                            Inicio
+                            <span className="py-1"></span>
                         </a>
                         <div className="dropdown-menu dropdown-menu-right text-small "
                             aria-labelledby="navbarDropdown">
                             <NavLink className="dropdown-item"
                                 to="/recepcionMateriaPrima">
-                                <span className="ml-2">prueba</span>
+                                <span className="ml-2">Ayuda</span>
                             </NavLink>
                         </div>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link"
-                            to="/recepcionMateriaPrima">
-                            <span className="ml-2">prueba</span>
-                        </NavLink>
                     </li>
                 </ul>
             </div>
