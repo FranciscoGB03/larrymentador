@@ -4,7 +4,7 @@ export const iniciaServomotor = () => {
     return API.post(`servo`)
         .then((res)=>{
             console.log('inicio servomotor');
-            return true;
+            return res;
         }
         ).catch((error) => {
            console.log(error);
