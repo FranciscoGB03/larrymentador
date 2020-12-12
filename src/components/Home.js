@@ -7,6 +7,8 @@ const Home =()=>{
     return(
         <Template>
             <button className="btn btn-primary" onClick={()=>{inicia()}}>Servo</button>
+            hola este un ejempĺo
+            cambio de una linea
         </Template>
     );
 }
